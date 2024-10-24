@@ -9,3 +9,5 @@ def is_palindrome(input_string):
     reverse_input = lower_space_string[::-1]
     if lower_space_string == reverse_input:
         return lower_space_string == reverse_input
+    else:
+        return False
